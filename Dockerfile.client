@@ -1,4 +1,4 @@
-FROM brawilli/node:14
+FROM image-registry.openshift-image-registry.svc:5000/brawilli/node:14
 
 WORKDIR /opt/app-root/src
 
